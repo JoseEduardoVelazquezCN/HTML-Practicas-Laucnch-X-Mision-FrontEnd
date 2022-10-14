@@ -1,7 +1,8 @@
 # HTML-Practicas-Laucnch-X-Mision-FrontEnd
-## Caso: pastelería
 
-## PRáCTICA: PASTELERIA 🍰
+# ⭐ Practica HTML FrontEnd ⭐ 
+
+# CASO: PASTELERIA 🍰
 ### Descripción de práctica HTML Mision-Frontend 
 [Descripción de la practica](https://github.com/JoseEduardoVelazquezCN/MisionFrontEnd/blob/main/01%20-%20INTRO/practicas/README.md#practicas-de-intro-a-frontend)
 
