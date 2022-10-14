@@ -7,9 +7,9 @@
 
 ###      :rocket: Iniciando la misión :rocket:
 
-Caso: Pastelería
+### Caso: Pastelería
 
-Descripción:
+#### Descripción:
 
 - El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.
 - El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno.
@@ -23,15 +23,23 @@ Descripción:
 - La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
 ### Prácticas a Realizar
-Prácticas:
 
-Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
-Maquetación de páginas de cliente de la pastelería.
-Maquetación de páginas del pastelero.
-Bonus: En caso de que te quede corto el ejercicio siguele con esto!
+#### Prácticas:
 
-Bonus de estilos (Intro a CSS)
-Bonus de Rutas (Navegación en la página)
-Bonus de despliegue (Montar la página en línea con dominio gratuito)
+- Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
+- Maquetación de páginas de cliente de la pastelería.
+- Maquetación de páginas del pastelero.
+
+## Bonus: En caso de que te quede corto el ejercicio siguele con esto! 🧠 
+
+- Bonus de estilos (Intro a CSS)
+- Bonus de Rutas (Navegación en la página)
+- Bonus de despliegue (Montar la página en línea con dominio gratuito)
 
 ## 🧑‍ Lo que hice para esta Práctica 💻
+
+### Creacion de la marca: ✔️
+[ver marca](https://github.com/JoseEduardoVelazquezCN/HTML-Practicas-Laucnch-X-Mision-FrontEnd) 👈
+
+### Despliegue: ✔️
+[ver despliegue](https://github.com/JoseEduardoVelazquezCN/HTML-Practicas-Laucnch-X-Mision-FrontEnd) 👈
