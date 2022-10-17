@@ -40,7 +40,7 @@
 ## 🧑‍ Lo que hice para esta Práctica 💻
 
 ### Creacion de la marca: ✔️
-[ver marca](https://github.com/JoseEduardoVelazquezCN/HTML-Practicas-Laucnch-X-Mision-FrontEnd) 👈
+[ver marca](https://github.com/JoseEduardoVelazquezCN/HTML-Practicas-Laucnch-X-Mision-FrontEnd/blob/b9cdcba71ea33406fbe84c9598b459779eb95fb4/Marca%20-%20all%20pasteleria.png) 👈
 
 ### Despliegue: ✔️
-[ver despliegue](https://github.com/JoseEduardoVelazquezCN/HTML-Practicas-Laucnch-X-Mision-FrontEnd) 👈
+[ver despliegue](https://all-pasteleria.netlify.app/) 👈
