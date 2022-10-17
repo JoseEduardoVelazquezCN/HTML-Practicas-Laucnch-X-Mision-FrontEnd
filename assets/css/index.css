@@ -1,0 +1,491 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*Barra de navegacion*/
+header {
+    background-color: #fbe8eb;
+    margin: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header li {
+    float: right;
+}
+
+header li a {
+    display: block;
+    color: #251B37;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+header li a:hover {
+    color: #FFECEF;
+    border: 2px solid #FFCACA;
+    border-radius: 50px 20px;
+    background-color: #251B37;
+}
+
+header img {
+    height: 80px;
+    margin-left: 20px;
+}
+
+/*SECTION INICIO*/
+.inicio {
+    position: relative;
+    height: 100vh;
+
+
+}
+
+.inicio::before {
+    content: '';
+    background: url('/assets/img/pexels-gary-barnes-6231593.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.inicio .texto-img {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+
+    background: rgba(255, 202, 202, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+
+
+}
+
+.inicio .texto-img p {
+    font-size: 50px;
+    -webkit-ptext-stroke: 3px #251B37;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+
+
+    color: #251B37;
+
+
+
+    /*blur*/
+    background: rgba(255, 202, 202, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+
+}
+
+.inicio .img-logo {
+    height: 280px;
+    margin-bottom: 40px;
+}
+
+/*SECCION NOSTROS*/
+.nosotros {
+    position: relative;
+    background: #FFECEF;
+    padding-bottom: 15px;
+
+
+
+
+    /* background: url("/assets/img/pexels-gary-barnes-6231593.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;*/
+
+}
+
+.nosotros .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.nosotros .info #titulo {
+    color: #251B37;
+    margin-top: 65px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.nosotros .info #texto {
+    color: #251B37;
+    margin-bottom: 65px;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+
+
+}
+
+.nosotros .info .somos {
+    color: #FFCACA;
+
+}
+
+/*SECTION MENU*/
+.menu {
+
+    /*scroll con imagen fija de fondo */
+    background: url("/assets/img/pexels-los-muertos-crew-8477975.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 960px;
+    width: 96.45%;
+
+    /*padding-top: 25px;*/
+    padding: 25px;
+}
+
+.menu .titulo {
+    font-size: 45px;
+    color: #FFCACA;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+
+    background: rgba(37, 27, 55, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+
+}
+
+
+.menu .card {
+    box-shadow: 0 4px 8px 0 #251B37;
+    transition: 0.3s;
+    width: 418px;
+    background-color: #FFCACA;
+    float: left;
+   margin-left: 25px;
+    height: 380px;
+    margin-bottom: 20px;
+
+    
+  
+
+}
+
+.menu .card:hover {
+    box-shadow: 0 8px 16px 0 #FFECEF;
+
+}
+
+.menu .container {
+    padding: 2px 16px;
+}
+
+.menu h3,
+p {
+    text-align: center;
+    color: #251B37;
+
+}
+
+.menu h3 {
+    text-align: center;
+    color: #251B37;
+    font-size: 25px;
+}
+
+.menu p {
+    text-align: center;
+    color: #251B37;
+    font-size: 20px;
+}
+
+/*SECTION MENU 2*/
+.menu2 {
+
+    /*scroll con imagen fija de fondo */
+    background: url("/assets/img/pexels-fu-zhichao-587741.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 960px;
+    width: 96.45%;
+
+    /*padding-top: 25px;*/
+    padding: 25px;
+}
+
+.menu2 .titulo {
+    font-size: 45px;
+    color: #FFCACA;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+
+    background: rgba(37, 27, 55, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+
+}
+
+
+.menu2 .card {
+    box-shadow: 0 4px 8px 0 #251B37;
+    transition: 0.3s;
+    width: 418px;
+    background-color: #FFCACA;
+    float: left;
+   margin-left: 25px;
+    height: 380px;
+    margin-bottom: 20px;
+
+    
+  
+
+}
+
+.menu2 .card:hover {
+    box-shadow: 0 8px 16px 0 #FFECEF;
+
+}
+
+.menu2 .container {
+    padding: 2px 16px;
+}
+
+.menu2 h3,
+p {
+    text-align: center;
+    color: #251B37;
+
+}
+
+.menu2 h3 {
+    text-align: center;
+    color: #251B37;
+    font-size: 25px;
+}
+
+.menu2 p {
+    text-align: center;
+    color: #251B37;
+    font-size: 20px;
+}
+
+/*SECTION PEDIDOS*/
+.pedidos {
+    background-color: #FFECEF;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.pedidos form {
+
+    padding: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+    /*blur*/
+    background: rgba(37, 27, 55, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 50px;
+}
+
+.pedidos form h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pedidos form input {
+    width: 60%;
+    margin: auto;
+    background-color: #FFCACA;
+    border-radius: 10px;
+    border-color: #251B37;
+    height: 25px;
+    float: right;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.pedidos form label {
+    float: left;
+    height: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+}
+
+.pedidos form p {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: #251B37;
+    margin-bottom: 10px;
+
+}
+
+.pedidos form h4 {
+    margin-top: 10px;
+
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: #251B37;
+    margin-bottom: 10px;
+
+}
+
+.pedidos form .input2 {
+    float: left;
+    height: 25px;
+    margin-bottom: 1px;
+    width: 30%;
+    color: #251B37;
+}
+
+.pedidos .button {
+    display: flex;
+    justify-content: center;
+}
+
+.pedidos .button button {
+    color: #fbe8eb;
+    background-color: #251B37;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: #FFCACA;
+    margin-top: 35px;
+
+}
+
+.pedidos .button button:hover {
+    background-color: #fbe8eb;
+    color: #251B37;
+
+}
+
+/*FOOTER*/
+footer {
+    background-color: #251B37;
+    color: #fbe8eb;
+    padding: 25px;
+}
+
+
+footer img {
+    float: right;
+    margin-right: 15px;
+    margin-top: 65px;
+}
+
+footer .titulo {
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFCACA;
+}
+
+footer .titulo b {
+    font-size: 25px;
+    font-weight: lighter;
+
+    color: #FFECEF;
+}
+footer h4{
+    color: #FFCACA;
+    font-size:22px;
+   margin-left: 10px;
+    
+    
+}
+footer .info{
+    color: #fbe8eb;
+    float: left;
+    font-size: 19px;
+    margin-left: 45px;
+}
+footer a{
+    color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+   
+}
+footer a:hover{
+    color: #FFCACA;
+}
+footer a b{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
